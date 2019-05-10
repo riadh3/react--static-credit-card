@@ -1,0 +1,96 @@
+.main-card{
+   
+    width: 450px;
+    height: 300px;
+    backface-visibility: hidden;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inconsolata;
+    top: 77px;
+    left: 77px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    border-radius: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTumKLh2yLcG5kLJmVmlyHoqn7pYP9MDFtQmmVlfDGxHoWzmu5h");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 20px 0px 60px;
+    
+}
+h1{
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+     font-family: sans-serif;
+    font: 800 20px;
+}
+.sim{
+    width: 100px;
+    height:80px;
+    position: absolute;
+    top: 100px;
+
+}
+.data{
+    position: absolute;
+    top: 190px;
+}   
+.pan {
+    line-height: 44px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: 28px;
+     
+     width: 300px; 
+     padding-bottom: 90px;
+    white-space: nowrap;
+} 
+.code-validity{
+    display: flex;
+    justify-content: space-between;
+}
+.code{
+    line-height: 44px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: 28px;
+}
+.name{
+    line-height: 44px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: 28px;
+}
+.exp-date{
+    flex-direction: column;
+    display: flex
+}
+.date{
+    
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: 25px;
+}
+.left-label{
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+    font: 7px/1 ;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5px;
+    
+}
+.upper-label{
+    font-size: 10px;
+    text-align: center;
+}
+.visa-logo{
+    position: relative;
+    left: 350px;
+    top: 155px;
+}
+.visa{
+    width: 100px;
+    height:130px;
+    
+}
